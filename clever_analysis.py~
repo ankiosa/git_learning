@@ -3,7 +3,7 @@ import numpy as np
 
 import matplotlib.pyplot as plt
 
-FUDGE = 106
+FUDGE = 42
 
 # Load data from the brain
 data = np.loadtxt('expensive_data.csv', delimiter=',')
